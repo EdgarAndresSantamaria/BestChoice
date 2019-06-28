@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">BestChoice</string>
+    <string name="app_yes">Sure</string>
+    <string name="app_no">Nope</string>
+
+    <!-- StatsActivity -->
+    <string name="stats_tv_category_title">Category</string>
+    <string name="stats_tv_option1_title">Option 1</string>
+    <string name="stats_tv_option2_title">Option 2</string>
+
+    <!-- AddDuelActivity -->
+    <string name="add_tv_category_title">Category</string>
+    <string name="add_tv_option1_title">Option 1</string>
+    <string name="add_tv_option2_title">Option 2</string>
+    <string name="add_button_add_duel">ADD DUEL</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Duel Created</string>
+    <string name="notification_text">
+        Thank you for creating a new duel, you got 5 participation points :)
+    </string>
+    <string name="notification_extra">+5</string>
+    <string name="notification_channel">Duel Creation</string>
+
+    <!--MainMenuActivity -->
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="mainmenu_button_play">Play!</string>
+    <string name="mainmenu_button_add_duel">Add duel</string>
+    <string name="mainmenu_button_stats">View stats</string>
+    <string name="mainmenu_button_ranking">User ranking</string>
+    <string name="mainmenu_button_prefs">Preferences</string>
+    <string name="mainmenu_button_login">Login</string>
+    <string name="mainmenu_category_title">Select your category</string>
+    <string name="mainmenu_error_login">You need to login to access this feature</string>
+    <string name="mainmenu_welcome_message">Welcome back</string>
+    <string name="mainmenu_welcome_logged">Welcome back %s</string>
+
+    <!-- DuelActivity -->
+    <string name="duel_question_placeholder">Question</string>
+    <string name="duel_first_placeholder">First Option</string>
+    <string name="duel_second_placeholder">Second Option</string>
+    <string name="duel_next">Next</string>
+    <string name="duel_back">Back</string>
+    <string name="duel_next_title">Congratulations!</string>
+    <string name="duel_next_message">
+        You voted every duel on this category.
+        You\'ll be redirected to the main menu.
+    </string>
+    <string name="duel_back_title">Warning</string>
+    <string name="duel_back_message">
+        Are you sure you want to go back to the main menu?
+    </string>
+    <string name="toolbar_title_duel">Duel</string>
+
+    <!--LoginActivity -->
+    <string name="prompt_email">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login or register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">Only letters and numbers allowed</string>
+    <string name="error_invalid_password">Password too short (min 8 char)</string>
+    <string name="error_field_required">Required field</string>
+    <string name="close_session">Log out</string>
+
+    <!-- Error String -->
+    <string name="error_incorrect_password">Wrong password</string>
+    <string name="error_inexistent_user">User doesn\'t exist</string>
+    <string name="error_bad_login_register">Something went wrong, try again</string>
+    <string name="error_incorrect_call">Wrong https call</string>
+    <string name="error_server_error">Sorry our server is dead</string>
+    <string name="error_bad_characters">Please enter only letters, numbers, and spaces</string>
+
+    <!-- Category Tags -->
+    <string-array name="categories">
+        <item>Characters</item>
+        <item>Places</item>
+        <item>Movies</item>
+        <item>Songs</item>
+        <item>Videogames</item>
+        <item>Sports</item>
+        <item>TV Shows</item>
+        <item>Books</item>
+    </string-array>
+
+    <!-- Category Questions -->
+    <string-array name="category_questions">
+        <item>Who\'s a better character?</item>
+        <item>Where would you like to travel?</item>
+        <item>What movie would you recommend?</item>
+        <item>Which song do you prefer?</item>
+        <item>What videogame did you enjoy more?</item>
+        <item>Choose the sport you like to watch</item>
+        <item>Which TV Show is more enjoyable?</item>
+        <item>What book did you find the most interesting?</item>
+    </string-array>
+
+    <!-- Preferences selections -->
+    <string name="pref1">Personalized Style</string>
+    <string name="pref2">English</string>
+
+    <!-- Titles -->
+    <string name="toolbar_title_add_duel">Add a duel</string>
+    <string name="toolbar_title_login">Log in</string>
+    <string name="toolbar_title_ranking">User participation ranking</string>
+    <string name="toolbar_title_stats">Duel stats</string>
+    <string name="toolbar_title_settings">Settings</string>
+
+</resources>

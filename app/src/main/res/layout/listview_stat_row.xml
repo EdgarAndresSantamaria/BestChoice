@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewCategoryRow"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOption1Row"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Option 1"
+        app:layout_constraintStart_toEndOf="@+id/textViewCategoryRow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewVotePercent1Row"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Votes 1"
+        app:layout_constraintStart_toEndOf="@+id/textViewOption1Row"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOption2Row"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Option 2"
+        app:layout_constraintStart_toEndOf="@+id/textViewVotePercent1Row"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewVotePercent2Row"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Votes 2"
+        app:layout_constraintStart_toEndOf="@+id/textViewOption2Row"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

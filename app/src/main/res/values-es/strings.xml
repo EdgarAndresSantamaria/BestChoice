@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">BestChoice</string>
+    <string name="app_yes">Sí</string>
+    <string name="app_no">No</string>
+
+    <!-- StatsActivity -->
+    <string name="stats_tv_category_title">Categoría</string>
+    <string name="stats_tv_option1_title">Opción 1</string>
+    <string name="stats_tv_option2_title">Opción 2</string>
+
+    <!-- AddDuelActivity -->
+    <string name="add_tv_category_title">Categoría</string>
+    <string name="add_tv_option1_title">Opción 1</string>
+    <string name="add_tv_option2_title">Opción 2</string>
+    <string name="add_button_add_duel">CREAR DUELO</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Duelo Creado</string>
+    <string name="notification_text">
+        Gracias por crear un duelo, has conseguido 5 puntos de participación :)
+    </string>
+    <string name="notification_extra">+5</string>
+    <string name="notification_channel">Duel Creation</string>
+
+    <!--MainMenuActivity -->
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="mainmenu_button_play">Jugar!</string>
+    <string name="mainmenu_button_add_duel">Crear duelo</string>
+    <string name="mainmenu_button_stats">Ver estadísticas</string>
+    <string name="mainmenu_button_ranking">Clasificación de usuarios</string>
+    <string name="mainmenu_button_prefs">Preferencias</string>
+    <string name="mainmenu_button_login">Iniciar sesión</string>
+    <string name="mainmenu_category_title">Selecciona tu categoría</string>
+    <string name="mainmenu_error_login">Inicia sesión para acceder a esa funcionalidad</string>
+    <string name="mainmenu_welcome_message">Bienvenido</string>
+    <string name="mainmenu_welcome_logged">Bienvenido %s</string>
+
+    <!-- DuelActivity -->
+    <string name="duel_question_placeholder">Pregunta</string>
+    <string name="duel_first_placeholder">Primera Opción</string>
+    <string name="duel_second_placeholder">Segunda Opción</string>
+    <string name="duel_next">Siguiente</string>
+    <string name="duel_back">Atrás</string>
+    <string name="duel_next_title">Felicidades!</string>
+    <string name="duel_next_message">
+        Has votado todos los duelos de esta categoría,
+        serás redirigido al menú principal.
+    </string>
+    <string name="duel_back_title">Cuidado!</string>
+    <string name="duel_back_message">
+        ¿Seguro que quieres volver al menú principal?
+    </string>
+    <string name="toolbar_title_duel">Duelo</string>
+
+    <!--LoginActivity -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Entrar o registrarse</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Sólo se admiten letras y números</string>
+    <string name="error_invalid_password">Contraseña corta (min 8 car)</string>
+    <string name="error_field_required">Campo obligatorio</string>
+    <string name="close_session">Cerrar sesión</string>
+
+    <!-- Error String -->
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_inexistent_user">El usuario no existe</string>
+    <string name="error_bad_login_register">Algo ha fallado, prueba de nuevo</string>
+    <string name="error_incorrect_call">Llamada https errónea</string>
+    <string name="error_server_error">El servidor no está disponible en este momento</string>
+    <string name="error_bad_characters">Por favor, introduce sólo letras, números o espacios</string>
+
+    <!-- Category Tags -->
+    <string-array name="categories">
+        <item>Personajes</item>
+        <item>Lugares</item>
+        <item>Películas</item>
+        <item>Canciones</item>
+        <item>Videojuegos</item>
+        <item>Deportes</item>
+        <item>Series</item>
+        <item>Libros</item>
+    </string-array>
+
+    <!-- Category Questions -->
+    <string-array name="category_questions">
+        <item>¿Cuál es mejor personaje?</item>
+        <item>¿Dónde te gustaría viajar?</item>
+        <item>¿Qué película recomendarías?</item>
+        <item>¿Qué canción prefieres?</item>
+        <item>¿Qué videojuego prefieres?</item>
+        <item>¿Qué deporte prefieres?</item>
+        <item>¿Con qué serie te diviertes más?</item>
+        <item>¿Cual de los libros te parece más interesante?</item>
+    </string-array>
+
+    <!-- Preferences selections -->
+    <string name="pref1">Estilo personalizado</string>
+    <string name="pref2">Inglés</string>
+
+    <!-- Titles -->
+    <string name="toolbar_title_stats">Estadísticas de duelos</string>
+    <string name="toolbar_title_ranking">Clasificación de usuarios</string>
+    <string name="toolbar_title_login">Iniciar sesión</string>
+    <string name="toolbar_title_add_duel">Añadir un duelo</string>
+    <string name="toolbar_title_settings">Preferencias</string>
+
+</resources>
